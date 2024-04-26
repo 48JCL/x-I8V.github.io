@@ -1,7 +1,7 @@
 /* Previous CSS styles remain unchanged */
 
 body {
-  font-family: Arial, sans-serif; /* Formal font */
+  font-family: Playfair Display, serif; /* Formal font */
   overflow: hidden; /* Hide overflow to prevent scrolling */
   margin: 0; /* Remove default margin */
   height: 100vh; /* Full height of viewport */
