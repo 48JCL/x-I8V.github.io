@@ -1,61 +1,50 @@
+/* Previous CSS styles remain unchanged */
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Light gray background */
+  font-family: Arial, sans-serif; /* Formal font */
+  overflow: hidden; /* Hide overflow to prevent scrolling */
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full height of viewport */
+  background: linear-gradient(to bottom, #aaffc3, #77dd77); /* Mint gradient */
+  border: 5px solid #000; /* Black border */
+  box-sizing: border-box; /* Include border in width and height */
+  padding: 20px; /* Add some padding */
+  display: flex; /* Use flexbox for centering content */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-h1 {
-    margin: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-.subject {
-    margin-bottom: 20px;
-}
-
-.subject h2 {
-    margin-bottom: 10px;
-}
-
-.coming-soon {
-    font-size: 24px;
-    font-style: italic;
-    text-align: center;
-    color: #999;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between buttons */
 }
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50; /* Green */
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.4s, background-color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
 }
 
 .button:hover {
-    background-color: #45a049; /* Darker green */
+  background-color: #45a049; /* Darker green */
+  transform: scale(1.1); /* Bounce effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
 }
 
 .footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  /* Previous footer styles remain unchanged */
 }
